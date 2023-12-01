@@ -3,7 +3,7 @@ B+Tree Implementation on Dart.
 - Free software: _GPL v3_.0
 
 <h4>Note</h4>
-**This project has not been tested in any way. Use at your own risk.**
+This project has not been tested in any way. Use at your own risk.
 
 <h4>Documentation</h4>
 This data structure is intended to be used as a key-value.
