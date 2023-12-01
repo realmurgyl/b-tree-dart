@@ -8,6 +8,7 @@ This project has not been tested in any way. Use at your own risk.
 <h4>Documentation</h4>
 This data structure is intended to be used as a key-value.
 
+
 **Constructor**
 
 ```dart
