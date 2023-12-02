@@ -1,4 +1,4 @@
-B+Tree Implementation on Dart.
+BTree Implementation on Dart.
 
 - Free software: _GPL v3_.0
 
