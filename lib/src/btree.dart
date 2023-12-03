@@ -218,14 +218,14 @@ class BTree {
       }
       i++;
       if (node.children[i].keys.length == (2 * _degree) - 1) {
-        _splitChild(node, i); // Вызываем разделение сразу, если узел заполнен
+        _splitChild(node, i);
         if (key.compareTo(node.keys[i]) > 0) {
           i++;
         }
       } else if (node.children[i].keys.length > _degree - 1) {
         _insertNonFull(node.children[i], key, value);
       } else {
-        _lazySplitChild(node, i); // Отложенное разделение
+        _lazySplitChild(node, i);
         _insertNonFull(node.children[i], key, value);
       }
     }
